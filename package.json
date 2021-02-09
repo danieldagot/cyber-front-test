@@ -14,13 +14,10 @@
     "uglifyjs-webpack-plugin": "^2.2.0",
     "web-vitals": "^0.2.4"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build:bundle": "webpack --config webpack.config.js",
-    "build": "npm run build:react && npm run build:bundle",
-    "test": "react-scripts test",
-    "production": "webpack  --progress",
-    "eject": "react-scripts eject"
+ "scripts": {
+    "start": "node scripts/start.js",
+    "build": "node scripts/build.js",
+    "test": "node scripts/test.js"
   },
   "eslintConfig": {
     "extends": [
