@@ -19,7 +19,9 @@ function App() {
 
           {/* <Route  path="/" component = {Test1}/> */}
 
-          <Route   path="/very/secret" exact  component = {Test2} >
+//           <Route   path="/very/secret" exact  component = {Test2} >
+          <Route   path="/secret" exact  component = {Test2} >
+            
           
           </Route>
 
